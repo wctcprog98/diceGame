@@ -1,0 +1,52 @@
+body {
+    /* margin: 30px; */
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background: lightgreen; 
+}
+
+.container{
+    width: 1000px; 
+    height: 650px;
+    background: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.totalScores2, .totalScores1 {
+    display: inline-block;
+}
+
+button {
+    font-size: 20px;
+    margin: 40px auto;
+    opacity: 1;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:focus {
+    opacity: .5;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#rollBtn {
+    text-align: center;
+    color: white;
+    background: red;
+    padding: 20px 35px;
+}
+
+#rollBtn:hover {
+    padding: 10px 25px;
+}
+#resetBtn {
+    display: none;
+}
+
